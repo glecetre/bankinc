@@ -132,7 +132,7 @@ export default class Budget extends Vue {
 
     dailySelfLimit = 0;
 
-    isDailySelfLimitModalDisplayed = true;
+    isDailySelfLimitModalDisplayed = false;
 
     mounted() {
         this.dailySelfLimit = this.dailyProRata;
